@@ -1,3 +1,5 @@
+import '../css/Alert.css';
+
 function Alert() {
 
     return (
