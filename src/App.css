@@ -19,6 +19,15 @@ body {
     text-transform: capitalize;
 }
 
+.form-control input {
+    background-color: rgb(241, 245, 248);
+    border: 1px solid rgb(196, 197, 197);
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 2px;
+    width: 300px;
+}
+
 .submit-btn {
     background-color: rgb(127, 210, 248);
     border: 1px solid rgb(196, 197, 197);
