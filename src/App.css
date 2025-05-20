@@ -14,6 +14,17 @@ body {
 }
 
 .grocery-form h3 {
-    margin: 0;
+    font-size: 15px;
+    margin: 0 0 5px 0;
     text-transform: capitalize;
+}
+
+.submit-btn {
+    background-color: rgb(127, 210, 248);
+    border: 1px solid rgb(196, 197, 197);
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 3px 6px;
 }
