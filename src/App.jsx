@@ -1,4 +1,7 @@
-import './App.css'
+import './App.css';
+import { useState, useEffect } from 'react';
+import List from './components/List';
+import Alert from './components/Alert';
 
 function App() {
 
