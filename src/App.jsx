@@ -8,7 +8,7 @@ function App() {
   const [list, setList] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
   const [editId, setEditId] = useState(null);
-  const [alert, setAlert] = useState({show: false, msg: '', type: ''});
+  const [alert, setAlert] = useState({ show: true, msg: '', type: '' });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,7 +17,9 @@ function App() {
 
   return (
     <section className="section-center">
-      <form className="grocery-form" onSubmit={handleSubmit}></form>
+      <form className="grocery-form" onSubmit={handleSubmit}>
+        {alert.show && <Alert />}
+      </form>
       <div className="grocery-container">
         <List />
         <button className="clear-btn">
