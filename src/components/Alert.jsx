@@ -6,3 +6,5 @@ function Alert() {
         </div>
     )
 }
+
+export default Alert;
