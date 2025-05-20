@@ -35,7 +35,8 @@ body {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 11px;
-    padding: 3px 6px;
+    padding: 4.5px 6px;
+    cursor: pointer;
 }
 
 .clear-btn {
@@ -43,4 +44,6 @@ body {
     border: 1px solid rgb(196, 197, 197);
     font-size: 11px;
     text-transform: capitalize;
+    padding: 3px 6px;
+    cursor: pointer;
 }
