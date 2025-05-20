@@ -37,3 +37,10 @@ body {
     font-size: 11px;
     padding: 3px 6px;
 }
+
+.clear-btn {
+    background-color: transparent;
+    border: 1px solid rgb(196, 197, 197);
+    font-size: 11px;
+    text-transform: capitalize;
+}
