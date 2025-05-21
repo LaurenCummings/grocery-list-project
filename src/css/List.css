@@ -1,6 +1,9 @@
+.grocery-list {
+    margin-top: 20px;
+}
+
 .grocery-item {
     display: flex;
-    margin-top: 20px;
 }
 
 .grocery-item .title {
