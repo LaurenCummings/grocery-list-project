@@ -1,11 +1,11 @@
 import '../css/Alert.css';
 
-function Alert({type, msg}) {
+function Alert({ type, msg }) {
 
     return (
-        <div>
-            Alert
-        </div>
+        <p className={`alert alert-${type}`}>
+            {msg}
+        </p>
     )
 }
 
