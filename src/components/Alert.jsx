@@ -1,6 +1,6 @@
 import '../css/Alert.css';
 
-function Alert() {
+function Alert({type, msg}) {
 
     return (
         <div>
