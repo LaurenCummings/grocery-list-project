@@ -1,0 +1,10 @@
+.grocery-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.grocery-item .title {
+    width: 300px;
+    text-align: left;
+    margin-top: 0;
+}
