@@ -8,3 +8,17 @@
     text-align: left;
     margin-top: 0;
 }
+
+.edit-btn, .delete-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-btn {
+    color: green;
+}
+
+.delete-btn {
+    color: red;
+}
