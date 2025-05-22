@@ -31,6 +31,11 @@ function App() {
     setAlert({show, msg, type})
   }
 
+  const clearList = () => {
+    showAlert(true, 'empty list', 'danger');
+    setList([]);
+  }
+
   return (
     <section className="section-center">
       <form className="grocery-form" onSubmit={handleSubmit}>
@@ -52,7 +57,7 @@ function App() {
       {List.length > 0 && (
         <div className="grocery-container">
           <List items={list} />
-          <button className="clear-btn">
+          <button className="clear-btn" onClick={clearList}>
             clear items
           </button>
         </div>
