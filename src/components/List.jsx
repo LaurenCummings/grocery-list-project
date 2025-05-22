@@ -1,7 +1,7 @@
 import '../css/List.css';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
-function List({ items, removeItem }) {
+function List({ items, removeItem, editItem }) {
 
     return (
         <div className="grocery-list">
@@ -11,7 +11,11 @@ function List({ items, removeItem }) {
                     <article key={id} className={"grocery-item"}>
                         <p className="title">{title}</p>
                         <div className="btn-container">
-                            <button type="button" className="edit-btn">
+                            <button 
+                                type="button" 
+                                className="edit-btn" 
+                                onClick={() => editItem(id)}
+                            >
                                 <FaEdit />
                             </button>
                             <button 
